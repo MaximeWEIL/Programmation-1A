@@ -1,0 +1,19 @@
+typedef int T;
+typedef struct NOEUD {
+    T val;
+    struct NOEUD *fg, *fd;
+} *noeud, *arbre;
+
+arbre nouvArbre();  // rend l’arbre vide, ici (arbre)NULL
+arbre enrac(T racine, arbre fg, arbre fd);
+
+arbre creerFeuille(T val);
+T racine(arbre);
+arbre fg(arbre);  // rend le fils gauche
+arbre fd(arbre);  // rend le fils droit
+
+int taille(arbre);
+int hauteur(arbre);
+int estVide(arbre);    // 1 si arbre vide, 0 sinon
+int estFeuille(arbre); // 1 si arbre réduit à une feuille, 0 sinon
+

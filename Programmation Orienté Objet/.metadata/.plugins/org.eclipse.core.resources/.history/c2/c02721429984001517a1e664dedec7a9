@@ -1,0 +1,6 @@
+
+public class main {
+	public static void main(String[] args) {
+		PointCol monPoint = new PointCol(4,5,2);
+	}
+}

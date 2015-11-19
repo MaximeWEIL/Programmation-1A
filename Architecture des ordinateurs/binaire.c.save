@@ -1,0 +1,30 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+   int Decimal;
+   int Binaire = 2;
+
+   scanf("%d", &Decimal);
+
+   while (Binaire <= Decimal)
+	{
+   		Binaire = Binaire * 2;
+	}
+
+    Binaire = Binaire / 2;
+
+   while (Binaire != 0)
+   {
+      if (Binaire <= Decimal)
+      {
+         printf("1");
+         Decimal = Decimal - Binaire;
+      }
+      else
+        printf("0");
+        Binaire = Binaire / 2;
+   }
+}

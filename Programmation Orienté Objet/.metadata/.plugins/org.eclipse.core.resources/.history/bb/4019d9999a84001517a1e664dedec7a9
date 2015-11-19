@@ -1,0 +1,8 @@
+
+public class main {
+	public static void main(String[] args) {
+		PointCol monPoint = new PointCol(4,5,2);
+		System.out.println("X : " + monPoint.affichex());
+		System.out.print(" Y : " + monPoint.affichey());
+	}
+}

@@ -1,0 +1,8 @@
+
+public class PointCol {
+	public int couleur;
+	public PointCol(int x, int y, int c){
+		super(x,y);   //appel du constructeur de la super-classe
+		couleur = c;
+	}
+}

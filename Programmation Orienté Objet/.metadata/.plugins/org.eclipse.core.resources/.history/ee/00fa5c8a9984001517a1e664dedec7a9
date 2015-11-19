@@ -1,0 +1,16 @@
+
+public class Point {
+	int x;
+	int y;
+	public Point(int nbx, int nby){
+		x = nbx;
+		y = nby;
+	}
+	public int affichex(){
+		return this.x;
+	}
+	
+	public int affichey(){
+		return this.y;
+	}
+}

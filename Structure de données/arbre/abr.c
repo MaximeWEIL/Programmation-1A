@@ -64,13 +64,23 @@ int plusGrandElt(sabr *a)
 }
         
 int recherche(int elt, sabr *a)
-{
+{	
 	if (a==NULL)
 	{return 0;}
-	else if (a->g >
-
-
+	if ((a->e)==elt)
+	{
+		return 1;
+	}
+	else if ((a->e)>elt)
+	{
+		recherche(elt,a->g);
+	}
+	else if ((a->e)<elt)
+	{
+		recherche(elt,a->d);
+	}
 }
+
 void affiche_etiquette(int e)
 	{printf("|%d|\n", e);}
 

@@ -26,6 +26,15 @@ int main()
 	printf("Plus petit : %d\n", plusPetitElt(arbre));
 
 	printf("Plus grand : %d\n", plusGrandElt(arbre));
+
+	int elem = 0;
+	printf("Choisissez un élément à rechercher : ");
+	scanf("%d", &elem);
+	if (recherche(elem,arbre) == 1)
+	{ printf("L'élément %d est dans l'arbre\n", elem); }
+	else
+	{ printf("L'élément %d n'est pas dans l'arbre\n", elem);}
+
 /*
 	printf("Prefixe :\n");
 	prefixe(arbre, affiche_etiquette);

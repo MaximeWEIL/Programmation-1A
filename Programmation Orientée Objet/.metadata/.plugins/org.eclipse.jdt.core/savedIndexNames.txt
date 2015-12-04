@@ -1,5 +1,0 @@
-INDEX VERSION 1.126+/home/mweil/Bureau/POO/.metadata/.plugins/org.eclipse.jdt.core
-72442722.index
-4045516120.index
-1012633047.index
-2860539873.index
